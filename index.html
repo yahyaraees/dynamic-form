@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic Resume Builder</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 id="name">Muhammad Yahya</h1>
+      <p id="title">Web Developer</p>
+    </header>
+
+    <form id="resume-form">
+      <input type="text" id="name-input" placeholder="Your Name" required />
+      <input type="email" id="email-input" placeholder="Your Email" required />
+      <input type="text" id="skill-input" placeholder="Add Skill" />
+      <button type="submit">Add Skill</button>
+    </form>
+
+    <section class="contact-info">
+      <h2>Contact Information</h2>
+      <p>Email: <span id="email"> yahyaraees667@gmail.com</span></p>
+      <p>Phone: <span id="phone">03182633969</span></p>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul id="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+    </section>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
